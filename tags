@@ -12,6 +12,9 @@
 Arch	README.md	/^### Arch$/;"	S	section:SYL-TMUX""Installing TMUX
 Fedora	README.md	/^### Fedora$/;"	S	section:SYL-TMUX""Installing TMUX
 Installing TMUX	README.md	/^## Installing TMUX$/;"	s	chapter:SYL-TMUX
+Installing TMUX Plugin Manager	README.md	/^## Installing TMUX Plugin Manager$/;"	s	chapter:SYL-TMUX
+Installing TMUX plugins	README.md	/^## Installing TMUX plugins$/;"	s	chapter:SYL-TMUX
 Mac	README.md	/^### Mac$/;"	S	section:SYL-TMUX""Installing TMUX
+More on TPM	README.md	/^## More on TPM$/;"	s	chapter:SYL-TMUX
 SYL-TMUX	README.md	/^# SYL-TMUX$/;"	c
 Ubuntu/Debian	README.md	/^### Ubuntu\/Debian$/;"	S	section:SYL-TMUX""Installing TMUX

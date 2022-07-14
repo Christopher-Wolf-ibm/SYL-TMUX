@@ -37,3 +37,52 @@ dnf install tmux
 ```
 
 Further instructions can be found [here](https://github.com/tmux/tmux/wiki/installing)
+
+## Installing TMUX Plugin Manager
+
+Installing TPM is very simple
+
+1. Clone the TPM repo
+
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+2. Include TPM in your tmux config file
+
+```
+set -g @plugin 'tmux-plugins/tpm'
+
+... insert plugins here ...
+
+run '~/.tmux/plugins/tpm/tpm'
+```
+
+It is wise to keep the run command at the very bottom of your tmux.conf
+
+Remember you need to reload your configuration file whenever you make a change to your settings
+
+```
+tmux source ~/.tmux.conf
+```
+
+NOTE: This command needs to be ran inside of the tmux terminal.  You can access your tmux terminal
+from inside of a tmux session and entering `prefix + :`
+
+## Installing TMUX plugins
+
+Assuming you have TPM installed, installing tmux plugs is very easy.  Simply add the following line
+to your tmux.conf
+
+```
+set -g @plugin 'tmux-plugins/<insert plugin here>'
+```
+
+Remember this must be added after the tpm plugin and the line running tpm
+
+Once that line has been added, resource your tmux config file and tell tmux to install 
+plugins with `prefix + I`
+
+## More on TPM
+
+More information on TPM can be found [here](https://github.com/tmux-plugins/tpm)
