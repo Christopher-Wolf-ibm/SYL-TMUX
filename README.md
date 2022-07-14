@@ -36,4 +36,4 @@ apt install tmux
 dnf install tmux
 ```
 
-Further instructions can be found (here)[https://github.com/tmux/tmux/wiki/installing]
+Further instructions can be found [here](https://github.com/tmux/tmux/wiki/installing)
