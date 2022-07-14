@@ -86,3 +86,11 @@ plugins with `prefix + I`
 ## More on TPM
 
 More information on TPM can be found [here](https://github.com/tmux-plugins/tpm)
+
+## Additional Files
+
+If you would like to use my tmux conf, either in its entirity or as a template, it can be found
+[here](https://github.com/Christopher-Wolf-ibm/SYL-TMUX/blob/main/tmux.conf)
+
+TMUX commands can get a bit long, if you would like to use a script to simplify its use, that
+can be found [here](https://github.com/Christopher-Wolf-ibm/SYL-TMUX/blob/main/tm.sh)
