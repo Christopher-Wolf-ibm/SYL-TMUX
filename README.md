@@ -63,7 +63,7 @@ It is wise to keep the run command at the very bottom of your tmux.conf
 Remember you need to reload your configuration file whenever you make a change to your settings
 
 ```
-tmux source ~/.tmux.conf
+source ~/.tmux.conf
 ```
 
 NOTE: This command needs to be ran inside of the tmux terminal.  You can access your tmux terminal
